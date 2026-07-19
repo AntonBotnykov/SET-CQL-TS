@@ -1,0 +1,53 @@
+{
+  "sourceM0": {
+    "Employee": {
+      "root": {
+        "name": "Ada",
+        "expectedHours": 8,
+        "actualHours": 8,
+        "manager": "root"
+      },
+      "alice": {
+        "name": "Alice",
+        "expectedHours": 8,
+        "actualHours": 6,
+        "manager": "root"
+      }
+    }
+  },
+  "sigmaF": {
+    "Record": {
+      "root": {
+        "label": "Ada",
+        "planned": 8,
+        "observed": 8,
+        "supervisor": "root"
+      },
+      "alice": {
+        "label": "Alice",
+        "planned": 8,
+        "observed": 6,
+        "supervisor": "root"
+      }
+    }
+  },
+  "deltaComposite": {
+    "Employee": {
+      "root": {
+        "name": "Ada",
+        "expectedHours": 8,
+        "actualHours": 8,
+        "manager": "root"
+      },
+      "alice": {
+        "name": "Alice",
+        "expectedHours": 8,
+        "actualHours": 6,
+        "manager": "root"
+      }
+    }
+  },
+  "anomalies": [
+    { "rowId": "alice", "expected": 8, "actual": 6 }
+  ]
+}
