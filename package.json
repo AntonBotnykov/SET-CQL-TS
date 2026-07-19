@@ -1,0 +1,23 @@
+{
+  "name": "set-cql-ts",
+  "version": "0.1.0",
+  "description": "A clean-room, executable TypeScript research fragment for SET-CQL.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.ts",
+    "verify": "npm run typecheck && npm test"
+  },
+  "dependencies": {
+    "effect": "3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "fast-check": "4.9.0",
+    "typescript": "7.0.2"
+  }
+}

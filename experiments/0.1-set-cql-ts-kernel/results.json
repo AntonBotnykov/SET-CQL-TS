@@ -1,0 +1,9 @@
+{
+  "experiment": "0.1",
+  "reproducedAt": "2026-07-19",
+  "typecheck": "pass",
+  "tests": { "passed": 22, "failed": 0 },
+  "propertyCases": { "passed": 500, "failed": 0, "seeds": [101, 102] },
+  "differentialGroups": { "passed": 3, "failed": 0 },
+  "claimScope": "finite SET kernel and bijective direct-renaming CQL fragment"
+}
